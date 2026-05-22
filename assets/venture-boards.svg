@@ -1,0 +1,18 @@
+<svg width="800" height="520" viewBox="0 0 800 520" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="520" rx="28" fill="#120D0A"/>
+  <rect x="30" y="30" width="740" height="460" rx="22" fill="url(#g)" stroke="#E79A61" stroke-opacity="0.25"/>
+  <rect x="84" y="84" width="216" height="14" rx="7" fill="#E79A61"/>
+  <rect x="84" y="120" width="160" height="12" rx="6" fill="#8D7A68"/>
+  <rect x="84" y="164" width="610" height="220" rx="24" fill="#17120E"/>
+  <rect x="114" y="192" width="112" height="168" rx="56" fill="#2B1A10"/>
+  <rect x="258" y="192" width="112" height="168" rx="56" fill="#2B1A10"/>
+  <rect x="402" y="192" width="112" height="168" rx="56" fill="#2B1A10"/>
+  <rect x="546" y="192" width="112" height="168" rx="56" fill="#2B1A10"/>
+  <text x="84" y="438" fill="#F4F7EF" font-family="Arial, sans-serif" font-size="42" font-weight="700">BOARDS.com.au</text>
+  <defs>
+    <linearGradient id="g" x1="40" y1="30" x2="760" y2="490" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2D1A11"/>
+      <stop offset="1" stop-color="#0E0A08"/>
+    </linearGradient>
+  </defs>
+</svg>

@@ -1,0 +1,36 @@
+<svg width="1200" height="1400" viewBox="0 0 1200 1400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="1400" rx="48" fill="#090909"/>
+  <rect x="40" y="40" width="1120" height="1320" rx="36" fill="url(#bg)" stroke="rgba(255,255,255,0.1)"/>
+  <circle cx="980" cy="220" r="180" fill="url(#glow)" fill-opacity="0.8"/>
+  <circle cx="280" cy="250" r="240" fill="#25170B" fill-opacity="0.7"/>
+  <rect x="700" y="180" width="350" height="190" rx="24" fill="#111713" stroke="#B7FF2A" stroke-opacity="0.35"/>
+  <rect x="728" y="210" width="132" height="14" rx="7" fill="#B7FF2A"/>
+  <rect x="728" y="246" width="260" height="14" rx="7" fill="#5F6955"/>
+  <rect x="728" y="278" width="220" height="14" rx="7" fill="#5F6955"/>
+  <rect x="728" y="318" width="150" height="24" rx="12" fill="#232C1B"/>
+  <path d="M310 1080C310 914.351 444.351 780 610 780V780C775.649 780 910 914.351 910 1080V1184H310V1080Z" fill="#1A1A19"/>
+  <path d="M474 586C474 492.112 550.112 416 644 416V416C737.888 416 814 492.112 814 586V644C814 737.888 737.888 814 644 814V814C550.112 814 474 737.888 474 644V586Z" fill="#A55C33"/>
+  <path d="M454 579C454 431.012 573.012 312 721 312H727C819.231 312 894 386.769 894 479V584L836 556L820 634L758 582C728.081 633.045 674.688 668 613 668H454V579Z" fill="#1A130F"/>
+  <path d="M524 685C557.765 745.436 607.527 775.654 673.286 775.654C739.044 775.654 790.949 746.993 829 689" stroke="#7A4225" stroke-width="16" stroke-linecap="round"/>
+  <circle cx="585" cy="617" r="14" fill="#111"/>
+  <circle cx="742" cy="617" r="14" fill="#111"/>
+  <path d="M580 548C600.667 533.333 621.333 533.333 642 548" stroke="#111" stroke-width="10" stroke-linecap="round"/>
+  <path d="M689 548C709.667 533.333 730.333 533.333 751 548" stroke="#111" stroke-width="10" stroke-linecap="round"/>
+  <rect x="188" y="1014" width="824" height="120" rx="26" fill="#10120F" stroke="rgba(255,255,255,0.08)"/>
+  <rect x="232" y="1054" width="210" height="16" rx="8" fill="#B7FF2A"/>
+  <rect x="232" y="1086" width="308" height="14" rx="7" fill="#5F6955"/>
+  <rect x="818" y="1048" width="150" height="44" rx="22" fill="#B7FF2A"/>
+  <text x="232" y="1148" fill="#F4F7EF" font-family="Arial, sans-serif" font-size="42" font-weight="700">Ben Willett</text>
+  <text x="736" y="240" fill="#F4F7EF" font-family="Arial, sans-serif" font-size="24" font-weight="700">Founder Dashboard</text>
+  <defs>
+    <linearGradient id="bg" x1="160" y1="120" x2="1020" y2="1320" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#171512"/>
+      <stop offset="0.48" stop-color="#0D0D0C"/>
+      <stop offset="1" stop-color="#060606"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(980 220) rotate(90) scale(180)">
+      <stop stop-color="#B7FF2A"/>
+      <stop offset="1" stop-color="#B7FF2A" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+</svg>

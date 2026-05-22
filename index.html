@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ben Willett personal website. Entrepreneur, builder, and full-stack engineer creating digital products with real-world impact.">
+    <title>Ben Willett | Entrepreneur, Builder, Problem Solver</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div class="page-shell">
+        <header class="site-header" id="top">
+            <a class="brand" href="#hero" aria-label="Ben Willett home">
+                <span class="brand-mark">BW</span>
+                <span class="brand-copy">
+                    <strong id="brand-name">Ben Willett</strong>
+                    <span id="brand-tagline">Entrepreneur. Builder. Problem Solver.</span>
+                </span>
+            </a>
+
+            <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <nav class="site-nav" id="site-nav" aria-label="Primary navigation">
+                <a href="#about">About</a>
+                <a href="#experience">Experience</a>
+                <a href="#ventures">Ventures</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+                <a class="nav-cta" href="#contact">Let's Connect</a>
+            </nav>
+        </header>
+
+        <main>
+            <section class="hero-section" id="hero">
+                <div class="hero-copy reveal">
+                    <p class="eyebrow" id="hero-eyebrow"></p>
+                    <p class="micro-tag" id="hero-micro-tag"></p>
+                    <h1 id="hero-heading"></h1>
+                    <p class="hero-description" id="hero-description"></p>
+
+                    <div class="hero-actions">
+                        <a class="button button-primary" id="hero-primary-cta" href="#ventures"></a>
+                        <a class="button button-secondary" id="hero-secondary-cta" href="#about"></a>
+                    </div>
+
+                    <ul class="signal-list" id="hero-signals"></ul>
+                </div>
+
+                <div class="hero-visual reveal reveal-delay-1">
+                    <article class="portrait-panel">
+                        <img class="portrait-image" id="hero-portrait" src="" alt="">
+                        <div class="portrait-overlay"></div>
+                        <div class="portrait-content">
+                            <p class="panel-kicker" id="hero-visual-kicker"></p>
+                            <h2 id="hero-visual-heading"></h2>
+                            <p id="hero-visual-description"></p>
+                        </div>
+                    </article>
+
+                    <div class="venture-strip" id="hero-ventures"></div>
+                </div>
+            </section>
+
+            <section class="stats-section reveal" aria-label="Highlights">
+                <div class="stats-grid" id="stats-grid"></div>
+            </section>
+
+            <section class="content-section about-section" id="about">
+                <div class="section-heading reveal">
+                    <p class="eyebrow">About Me</p>
+                    <h2 id="about-heading"></h2>
+                </div>
+
+                <div class="about-layout">
+                    <article class="about-card reveal reveal-delay-1">
+                        <p id="about-body"></p>
+                        <a class="inline-link" href="#experience">More About Me</a>
+                    </article>
+                    <article class="quote-card reveal reveal-delay-2">
+                        <p class="quote-text" id="about-quote"></p>
+                    </article>
+                </div>
+            </section>
+
+            <section class="content-section" id="experience">
+                <div class="section-heading reveal">
+                    <p class="eyebrow">Experience</p>
+                    <h2>Building products, teams, and momentum.</h2>
+                </div>
+                <div class="timeline reveal reveal-delay-1" id="timeline"></div>
+            </section>
+
+            <section class="content-section" id="ventures">
+                <div class="section-heading reveal">
+                    <p class="eyebrow">Ventures</p>
+                    <h2 id="ventures-heading"></h2>
+                </div>
+                <div class="card-grid ventures-grid" id="ventures-grid"></div>
+            </section>
+
+            <section class="content-section" id="projects">
+                <div class="section-heading reveal">
+                    <p class="eyebrow">Projects / Work</p>
+                    <h2 id="projects-heading"></h2>
+                </div>
+                <div class="card-grid projects-grid" id="projects-grid"></div>
+            </section>
+
+            <section class="content-section skills-section" id="skills">
+                <div class="section-heading reveal">
+                    <p class="eyebrow">Skills</p>
+                    <h2>Technical depth with execution bias.</h2>
+                </div>
+                <div class="skills-layout">
+                    <div class="skills-list reveal reveal-delay-1" id="skills-list"></div>
+                    <article class="principles-card reveal reveal-delay-2">
+                        <p class="panel-kicker">Operating Principles</p>
+                        <ul id="principles-list"></ul>
+                    </article>
+                </div>
+            </section>
+
+            <section class="content-section contact-section" id="contact">
+                <div class="contact-layout">
+                    <div class="section-heading reveal">
+                        <p class="eyebrow">Let's Connect</p>
+                        <h2 id="contact-heading"></h2>
+                        <p class="section-copy" id="contact-copy"></p>
+                        <div class="contact-list" id="contact-list"></div>
+                    </div>
+
+                    <form class="contact-card reveal reveal-delay-1" id="contact-form" action="#" method="post" enctype="text/plain">
+                        <div class="field-row">
+                            <label>
+                                <span>Name</span>
+                                <input type="text" name="name" placeholder="Your name">
+                            </label>
+                            <label>
+                                <span>Email</span>
+                                <input type="email" name="email" placeholder="you@example.com">
+                            </label>
+                        </div>
+                        <label>
+                            <span>Message</span>
+                            <textarea name="message" rows="5" placeholder="Tell me what you're building."></textarea>
+                        </label>
+                        <p class="form-note" id="contact-form-note"></p>
+                        <button class="button button-primary" id="contact-submit" type="submit">Send Message</button>
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <footer class="site-footer">
+            <p id="footer-copy"></p>
+            <div class="footer-links">
+                <a href="#top">Back to top</a>
+            </div>
+        </footer>
+    </div>
+
+    <script src="./site-data.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
