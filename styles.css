@@ -135,13 +135,16 @@ textarea {
 .site-nav a {
     padding: 10px 14px;
     border-radius: 999px;
-    color: var(--muted);
     border: 1px solid transparent;
     transition: 180ms ease;
 }
 
-.site-nav a:hover,
-.site-nav a.is-active {
+.site-nav a:not(.nav-cta) {
+    color: var(--muted);
+}
+
+.site-nav a:not(.nav-cta):hover,
+.site-nav a:not(.nav-cta).is-active {
     color: var(--text);
     border-color: rgba(255, 255, 255, 0.08);
     background: rgba(183, 255, 42, 0.08);
