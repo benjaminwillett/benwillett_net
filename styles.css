@@ -835,7 +835,20 @@ textarea:focus {
     }
 
     .portrait-panel {
-        min-height: 420px;
+        min-height: 0;
+    }
+
+    .portrait-image {
+        position: static;
+        display: block;
+        height: auto;
+    }
+
+    .portrait-content {
+        position: relative;
+        inset: auto;
+        max-width: none;
+        padding: 16px 24px 24px;
     }
 
     .site-footer {
