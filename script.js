@@ -82,7 +82,7 @@ const renderTimeline = () => {
                 <article class="timeline-item">
                     <span class="timeline-period">${item.period}</span>
                     <h3>${item.title}</h3>
-                    <p>${item.detail}</p>
+                    ${item.detail ? `<p>${item.detail}</p>` : ""}
                 </article>
             `
         )

@@ -34,11 +34,11 @@ window.siteData = {
         quote: "The best products do more than work. They create leverage, identity, and momentum."
     },
     timeline: [
-        { period: "2002 - 2006", title: "Developer", detail: "Built across startups and client delivery environments, learning how products succeed under real constraints." },
-        { period: "2006 - 2011", title: "CTO", detail: "Led engineering direction, architecture, and product execution across digital agencies and platform work." },
-        { period: "2011 - 2016", title: "Co-Founder", detail: "Helped scale Snowboard.net through product, ecommerce, and community-driven brand growth." },
-        { period: "2016 - 2020", title: "Founder", detail: "Built Devopty, focused on automation and operational systems, alongside the ecommerce ventures." },
-        { period: "2020 - Present", title: "Founder", detail: "Growing Devopty into a network automation consultancy and launching Netopty, alongside the board-sports ventures." }
+        { period: "Founder & CEO", title: "Distort Snowboards", detail: "Maker of custom snowboards." },
+        { period: "Founder & COO", title: "SkiCity", detail: "Experience-led venue and lifestyle brand." },
+        { period: "Founder & CEO", title: "Techcamp.com.au", detail: "Technology, coding and robotics workshops and holiday camps for kids." },
+        { period: "Founder", title: "Snowboard.net", detail: "Community-led commerce and content in the snow category." },
+        { period: "Founder", title: "Devopty & Netopty", detail: "Network automation consultancy and its network documentation product." }
     ],
     venturesHeading: "Selected ventures and businesses.",
     ventures: [
