@@ -3,174 +3,245 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Ben Willett personal website. Engineer, builder and entrepreneur with 25+ years in network infrastructure. Founder of Devopty, maker of Netopty, and builder of board-sports marketplaces.">
+    <meta name="description" content="Ben Willett is an engineer and founder based in Melbourne, with more than 25 years in network infrastructure. Founder of Devopty and Netopty, and of board-sports marketplaces including Snowboard.net.">
     <title>Ben Willett | Entrepreneur, Builder, Problem Solver</title>
-    <link rel="icon" href="/favicon.ico?v=2" sizes="16x16 32x32 48x48">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png?v=2">
-    <link rel="icon" type="image/png" sizes="48x48" href="/favicon-48.png?v=2">
-    <link rel="apple-touch-icon" href="/apple-touch-icon.png?v=2" sizes="180x180">
+    <link rel="icon" href="/favicon.ico?v=3" sizes="16x16 32x32 48x48">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png?v=3">
+    <link rel="icon" type="image/png" sizes="48x48" href="/favicon-48.png?v=3">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png?v=3" sizes="180x180">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
+    <a class="skip-link" href="#main">Skip to content</a>
     <div class="page-shell">
         <header class="site-header" id="top">
-            <a class="brand" href="#hero" aria-label="Ben Willett home">
-                <span class="brand-mark">BW</span>
+            <a class="brand" href="#top" aria-label="Ben Willett home">
+                <span class="brand-mark" aria-hidden="true">BW</span>
                 <span class="brand-copy">
-                    <strong id="brand-name">Ben Willett</strong>
-                    <span id="brand-tagline">Entrepreneur. Builder. Problem Solver.</span>
+                    <strong>Ben Willett</strong>
+                    <span>Engineer and founder</span>
                 </span>
             </a>
 
-            <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+            <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open navigation">
                 <span></span>
                 <span></span>
                 <span></span>
             </button>
 
             <nav class="site-nav" id="site-nav" aria-label="Primary navigation">
-                <a href="#about">About</a>
-                <a href="#experience">Experience</a>
                 <a href="#ventures">Ventures</a>
-                <a href="#projects">Projects</a>
-                <a href="#contact">Contact</a>
-                <a class="nav-cta" href="#contact">Let's Connect</a>
+                <a href="#about">About</a>
+                <a class="nav-cta" href="#contact">Get in touch</a>
             </nav>
         </header>
 
-        <main>
+        <main id="main">
+            <!-- Hero -->
             <section class="hero-section" id="hero">
-                <div class="hero-copy reveal">
-                    <p class="eyebrow" id="hero-eyebrow"></p>
-                    <p class="micro-tag" id="hero-micro-tag"></p>
-                    <h1 id="hero-heading"></h1>
-                    <p class="hero-description" id="hero-description"></p>
-
+                <div class="hero-copy">
+                    <p class="eyebrow">Engineer and founder, Melbourne</p>
+                    <h1><span>Entrepreneur.</span> <span>Builder.</span> <span>Problem solver.</span></h1>
+                    <p class="hero-description">For more than 25 years I have delivered network infrastructure. I have also founded companies in network automation and board sports.</p>
                     <div class="hero-actions">
-                        <a class="button button-primary" id="hero-primary-cta" href="#ventures"></a>
-                        <a class="button button-secondary" id="hero-secondary-cta" href="#about"></a>
+                        <a class="button button-primary" href="#ventures">See my ventures</a>
+                        <a class="inline-link" href="#contact">Get in touch</a>
                     </div>
-
-                    <ul class="signal-list" id="hero-signals"></ul>
                 </div>
 
-                <div class="hero-visual reveal reveal-delay-1">
-                    <article class="portrait-panel">
-                        <img class="portrait-image" id="hero-portrait" src="" alt="">
-                        <div class="portrait-overlay"></div>
-                        <div class="portrait-content">
-                            <p class="panel-kicker" id="hero-visual-kicker"></p>
-                            <h2 id="hero-visual-heading"></h2>
-                            <p id="hero-visual-description"></p>
-                        </div>
-                    </article>
-
-                    <div class="venture-strip" id="hero-ventures"></div>
+                <div class="hero-aside">
+                    <img class="portrait" src="./assets/web/ben-willett.webp" alt="Ben Willett at his desk" width="1151" height="674">
+                    <dl class="fact-list" aria-label="At a glance">
+                        <div><dt>Experience</dt><dd>25+ years in network infrastructure</dd></div>
+                        <div><dt>Now</dt><dd>Devopty and Netopty</dd></div>
+                        <div><dt>Also</dt><dd>Board-sports marketplaces</dd></div>
+                        <div><dt>Based</dt><dd>Melbourne, Australia</dd></div>
+                    </dl>
                 </div>
             </section>
 
-            <section class="stats-section reveal" aria-label="Highlights">
-                <div class="stats-grid" id="stats-grid"></div>
-            </section>
-
-            <section class="content-section about-section" id="about">
-                <div class="section-heading reveal">
-                    <p class="eyebrow">About Me</p>
-                    <h2 id="about-heading"></h2>
-                </div>
-
-                <div class="about-layout">
-                    <article class="about-card reveal reveal-delay-1">
-                        <p id="about-body"></p>
-                        <a class="inline-link" href="#experience">More About Me</a>
-                    </article>
-                    <article class="quote-card reveal reveal-delay-2">
-                        <p class="quote-text" id="about-quote"></p>
-                    </article>
-                </div>
-            </section>
-
-            <section class="content-section" id="experience">
-                <div class="section-heading reveal">
-                    <p class="eyebrow">Experience</p>
-                    <h2>Building products, teams, and momentum.</h2>
-                </div>
-                <div class="timeline reveal reveal-delay-1" id="timeline"></div>
-            </section>
-
-            <section class="content-section" id="ventures">
-                <div class="section-heading reveal">
+            <!-- Ventures -->
+            <section class="content-section" id="ventures" aria-labelledby="ventures-title">
+                <div class="section-heading">
                     <p class="eyebrow">Ventures</p>
-                    <h2 id="ventures-heading"></h2>
+                    <h2 id="ventures-title">What I have built</h2>
                 </div>
-                <div class="card-grid ventures-grid" id="ventures-grid"></div>
+
+                <div class="venture-group">
+                    <h3 class="group-title">Network automation</h3>
+                    <ul class="venture-list" role="list">
+                        <li class="venture">
+                            <img class="venture-thumb" src="./assets/web/devopty.webp" alt="Screenshot of the Devopty website" width="720" height="450" loading="lazy" decoding="async">
+                            <div class="venture-head">
+                                <h4>Devopty</h4>
+                                <p class="role">Founder</p>
+                            </div>
+                            <p class="venture-text">A network automation consultancy. Discovery, documentation, audit and controlled change for enterprise networks.</p>
+                            <a class="visit" href="https://www.devopty.com/" rel="noopener">devopty.com</a>
+                        </li>
+                        <li class="venture">
+                            <img class="venture-thumb" src="./assets/web/netopty.webp" alt="Screenshot of the Netopty website" width="720" height="450" loading="lazy" decoding="async">
+                            <div class="venture-head">
+                                <h4>Netopty</h4>
+                                <p class="role">Founder</p>
+                            </div>
+                            <p class="venture-text">Devopty's first product. As-built reports for enterprise networks, generated from evidence collected from the devices themselves.</p>
+                            <a class="visit" href="https://www.netopty.com/" rel="noopener">netopty.com</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="venture-group">
+                    <h3 class="group-title">Marketplace software</h3>
+                    <ul class="venture-list" role="list">
+                        <li class="venture">
+                            <img class="venture-thumb" src="./assets/web/fleav.webp" alt="Screenshot of the Fleav.com website" width="720" height="450" loading="lazy" decoding="async">
+                            <div class="venture-head">
+                                <h4>Fleav.com</h4>
+                            </div>
+                            <p class="venture-text">Marketplace software. The platform behind the board-sports marketplaces below.</p>
+                            <a class="visit" href="https://fleav.com/" rel="noopener">fleav.com</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="venture-group">
+                    <h3 class="group-title">Board sports</h3>
+                    <ul class="venture-list" role="list">
+                        <li class="venture">
+                            <img class="venture-thumb" src="./assets/web/snowboard.webp" alt="Screenshot of the Snowboard.net marketplace" width="720" height="450" loading="lazy" decoding="async">
+                            <div class="venture-head">
+                                <h4>Snowboard.net</h4>
+                                <p class="role">Founder</p>
+                            </div>
+                            <p class="venture-text">A snowboard marketplace, with community-led commerce and content.</p>
+                            <a class="visit" href="https://snowboard.net/" rel="noopener">snowboard.net</a>
+                        </li>
+                        <li class="venture">
+                            <img class="venture-thumb" src="./assets/web/boards.webp" alt="Screenshot of the BOARDS.com.au marketplace" width="720" height="450" loading="lazy" decoding="async">
+                            <div class="venture-head">
+                                <h4>BOARDS.com.au</h4>
+                            </div>
+                            <p class="venture-text">An action-sports marketplace covering snow, wake, skate, SUP and surf.</p>
+                            <a class="visit" href="https://boards.com.au/" rel="noopener">boards.com.au</a>
+                        </li>
+                        <li class="venture">
+                            <img class="venture-thumb" src="./assets/web/isup.webp" alt="Screenshot of the iSUP.com.au marketplace" width="720" height="450" loading="lazy" decoding="async">
+                            <div class="venture-head">
+                                <h4>iSUP.com.au</h4>
+                            </div>
+                            <p class="venture-text">A stand-up paddleboard marketplace.</p>
+                            <a class="visit" href="https://isup.com.au/" rel="noopener">isup.com.au</a>
+                        </li>
+                        <li class="venture">
+                            <img class="venture-thumb" src="./assets/web/skate.webp" alt="Screenshot of the skate.com.au marketplace" width="720" height="450" loading="lazy" decoding="async">
+                            <div class="venture-head">
+                                <h4>skate.com.au</h4>
+                            </div>
+                            <p class="venture-text">A skateboard marketplace.</p>
+                            <a class="visit" href="https://skate.com.au/" rel="noopener">skate.com.au</a>
+                        </li>
+                        <li class="venture">
+                            <img class="venture-thumb" src="./assets/web/wakeboard.webp" alt="Screenshot of the Wakeboard.com.au marketplace" width="720" height="450" loading="lazy" decoding="async">
+                            <div class="venture-head">
+                                <h4>Wakeboard.com.au</h4>
+                            </div>
+                            <p class="venture-text">A wakeboard marketplace.</p>
+                            <a class="visit" href="https://wakeboard.com.au/" rel="noopener">wakeboard.com.au</a>
+                        </li>
+                        <li class="venture">
+                            <img class="venture-thumb" src="./assets/web/skicity.webp" alt="The indoor slope at SkiCity" width="720" height="450" loading="lazy" decoding="async">
+                            <div class="venture-head">
+                                <h4>SkiCity</h4>
+                                <p class="role">Founder &amp; COO</p>
+                            </div>
+                            <p class="venture-text">An indoor snow-sports venue.</p>
+                            <a class="visit" href="https://skicity.com.au/" rel="noopener">skicity.com.au</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="venture-group">
+                    <h3 class="group-title">Earlier ventures</h3>
+                    <ul class="venture-list" role="list">
+                        <li class="venture no-thumb">
+                            <div class="venture-head">
+                                <h4>Techcamp.com.au</h4>
+                                <p class="role">Founder &amp; CEO</p>
+                            </div>
+                            <p class="venture-text">Technology, coding and robotics workshops and holiday camps for kids.</p>
+                        </li>
+                        <li class="venture no-thumb">
+                            <div class="venture-head">
+                                <h4>Distort Snowboards</h4>
+                                <p class="role">Founder &amp; CEO</p>
+                            </div>
+                            <p class="venture-text">A maker of custom snowboards.</p>
+                        </li>
+                    </ul>
+                </div>
             </section>
 
-            <section class="content-section" id="projects">
-                <div class="section-heading reveal">
-                    <p class="eyebrow">Projects / Work</p>
-                    <h2 id="projects-heading"></h2>
-                </div>
-                <div class="card-grid projects-grid" id="projects-grid"></div>
-            </section>
-
-            <section class="content-section skills-section" id="skills">
-                <div class="section-heading reveal">
-                    <p class="eyebrow">Skills</p>
-                    <h2>Technical depth with execution bias.</h2>
-                </div>
-                <div class="skills-layout">
-                    <div class="skills-list reveal reveal-delay-1" id="skills-list"></div>
-                    <article class="principles-card reveal reveal-delay-2">
-                        <p class="panel-kicker">Operating Principles</p>
-                        <ul id="principles-list"></ul>
-                    </article>
+            <!-- About -->
+            <section class="content-section" id="about" aria-labelledby="about-title">
+                <div class="about-layout">
+                    <div class="section-heading">
+                        <p class="eyebrow">About</p>
+                        <h2 id="about-title">Infrastructure first, then companies</h2>
+                    </div>
+                    <div class="about-copy">
+                        <p>I have spent more than 25 years delivering network infrastructure. Devopty came out of that work: the automation I built to document, audit and change production networks is now offered as a consultancy, with Netopty as its first product.</p>
+                        <p>Alongside it I have founded businesses in board sports and education, from custom snowboards and an indoor snow venue to online marketplaces and technology camps for kids.</p>
+                        <p>I am based in Melbourne and work with clients across Australia.</p>
+                    </div>
                 </div>
             </section>
 
-            <section class="content-section contact-section" id="contact">
+            <!-- Contact -->
+            <section class="content-section" id="contact" aria-labelledby="contact-title">
                 <div class="contact-layout">
-                    <div class="section-heading reveal">
-                        <p class="eyebrow">Let's Connect</p>
-                        <h2 id="contact-heading"></h2>
-                        <p class="section-copy" id="contact-copy"></p>
-                        <div class="contact-list" id="contact-list"></div>
+                    <div class="section-heading">
+                        <p class="eyebrow">Contact</p>
+                        <h2 id="contact-title">Get in touch</h2>
+                        <p class="section-copy">For network automation work, start with <a class="text-link" href="https://www.devopty.com/" rel="noopener">Devopty</a>. For anything else, send me a message.</p>
+                        <div class="contact-list">
+                            <a class="contact-item" href="mailto:benw@techcamp.com.au"><span>Email</span><strong>benw@techcamp.com.au</strong></a>
+                            <a class="contact-item" href="https://au.linkedin.com/in/bwillett" rel="noopener"><span>LinkedIn</span><strong>au.linkedin.com/in/bwillett</strong></a>
+                            <div class="contact-item"><span>Location</span><strong>Melbourne, Australia</strong></div>
+                        </div>
                     </div>
 
-                    <form class="contact-card reveal reveal-delay-1" id="contact-form" action="#" method="post" enctype="text/plain">
+                    <form class="contact-card" id="contact-form" novalidate>
                         <div class="field-row">
                             <label>
                                 <span>Name</span>
-                                <input type="text" name="name" placeholder="Your name">
+                                <input type="text" name="name" autocomplete="name">
                             </label>
                             <label>
                                 <span>Email</span>
-                                <input type="email" name="email" placeholder="you@example.com">
+                                <input type="email" name="email" autocomplete="email">
                             </label>
                         </div>
                         <label>
                             <span>Message</span>
-                            <textarea name="message" rows="5" placeholder="Tell me what you're building."></textarea>
+                            <textarea name="message" rows="5"></textarea>
                         </label>
-                        <p class="form-note" id="contact-form-note"></p>
-                        <button class="button button-primary" id="contact-submit" type="submit">Send Message</button>
+                        <button class="button button-primary" type="submit">Send message</button>
+                        <p class="form-note" id="contact-form-note">Sending opens your email app with your message ready to send.</p>
                     </form>
                 </div>
             </section>
         </main>
 
         <footer class="site-footer">
-            <p id="footer-copy"></p>
-            <div class="footer-links">
-                <a href="#top">Back to top</a>
-            </div>
+            <p>&copy; 2026 Ben Willett</p>
+            <a href="#top">Back to top</a>
         </footer>
     </div>
 
-    <script src="./site-data.js"></script>
     <script src="./script.js"></script>
 </body>
 </html>
