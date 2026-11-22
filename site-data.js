@@ -7,13 +7,13 @@ window.siteData = {
         eyebrow: "Entrepreneur. Builder. Problem Solver.",
         microTag: "Creating businesses and digital products that make real impact.",
         heading: "Building businesses people use and lives they enjoy.",
-        description: "I design and scale digital marketplaces, automation platforms, and real-world product ecosystems that bring freedom, community, and momentum to more people.",
+        description: "I build network automation tools, digital marketplaces, and real-world product ecosystems that bring freedom, community, and momentum to more people.",
         primaryCta: { label: "Explore My Ventures", href: "#ventures" },
         secondaryCta: { label: "Learn More About Me", href: "#about" },
         signals: [
-            "Founder-led product strategy",
-            "Marketplace and platform execution",
-            "Engineering depth from idea to launch"
+            "25+ years delivering network infrastructure",
+            "Network automation with Devopty and Netopty",
+            "Marketplace and platform execution"
         ],
         visual: {
             image: "./assets/founder_snapshot.png",
@@ -24,26 +24,26 @@ window.siteData = {
         }
     },
     stats: [
-        { value: "20+", label: "Years Experience" },
-        { value: "10+", label: "Businesses Built" },
-        { value: "5M+", label: "Users Impacted" },
-        { value: "∞", label: "Passion" }
+        { value: "25+", label: "Years in network infrastructure" },
+        { value: "7", label: "Ventures and products" },
+        { value: "Melbourne", label: "Working with clients across Australia" }
     ],
     about: {
         heading: "I build ventures that connect strong product thinking with real-world utility.",
-        body: "I am a senior full-stack engineer, product builder, and entrepreneur focused on turning ambitious ideas into durable businesses. My work sits at the intersection of software, UX, automation, commerce, and brand. I care about products that are commercially sound, operationally sharp, and enjoyable to use.",
+        body: "I am an engineer, product builder, and entrepreneur with more than 25 years of experience delivering network infrastructure. Through Devopty I turn that experience into network automation tools and services, including Netopty. Alongside it I build ecommerce ventures in board sports. I am based in Melbourne and care about products that are commercially sound, operationally sharp, and enjoyable to use.",
         quote: "The best products do more than work. They create leverage, identity, and momentum."
     },
     timeline: [
         { period: "2002 - 2006", title: "Developer", detail: "Built across startups and client delivery environments, learning how products succeed under real constraints." },
         { period: "2006 - 2011", title: "CTO", detail: "Led engineering direction, architecture, and product execution across digital agencies and platform work." },
         { period: "2011 - 2016", title: "Co-Founder", detail: "Helped scale Snowboard.net through product, ecommerce, and community-driven brand growth." },
-        { period: "2016 - 2020", title: "Founder", detail: "Built Devopty and adjacent ventures focused on automation, ecommerce, and operational systems." },
-        { period: "2020 - Present", title: "Founder", detail: "Expanding multiple ventures with a sharper focus on product ecosystems, speed, and defensible execution." }
+        { period: "2016 - 2020", title: "Founder", detail: "Built Devopty, focused on automation and operational systems, alongside the ecommerce ventures." },
+        { period: "2020 - Present", title: "Founder", detail: "Growing Devopty into a network automation consultancy and launching Netopty, alongside the board-sports ventures." }
     ],
     venturesHeading: "Selected ventures and businesses.",
     ventures: [
-        { name: "Devopty", url: "https://devopty.com", description: "Product engineering, automation, and digital platform development.", tone: "Operations systems, product delivery, and platform tooling.", accent: "lime", image: "./assets/devopty_com.png" },
+        { name: "Devopty", url: "https://www.devopty.com", description: "Network automation consultancy.", tone: "Discovery, documentation, audit and controlled change for enterprise networks. Makers of Netopty.", accent: "lime", image: "./assets/devopty_com.webp" },
+        { name: "Netopty", url: "https://www.netopty.com", description: "Network discovery and as-built documentation.", tone: "As-built reports for enterprise networks, generated from evidence collected from the devices themselves.", accent: "teal", image: "./assets/netopty_com.webp" },
         { name: "snowboard.net", url: "https://snowboard.net", description: "Community-led commerce and content in the snow category.", tone: "Niche audience, ecommerce depth, and brand loyalty.", accent: "amber", image: "./assets/snowboard_com_au.png" },
         { name: "BOARDS.com.au", url: "https://boards.com.au", description: "Boardsports retail built around category authority and experience.", tone: "Retail execution with strong digital conversion foundations.", accent: "copper", image: "./assets/boards_com_au.png" },
         { name: "SkiCity", url: "https://skicity.com.au", description: "Experience-led venue and lifestyle brand positioning.", tone: "Hospitality, experience design, and audience connection.", accent: "blue", image: "./assets/skicity.jpg" },
@@ -57,12 +57,13 @@ window.siteData = {
         { title: "Founder-Led Brand Sites", description: "Crafted premium digital presences that position businesses clearly and turn attention into action.", tags: ["Brand", "Frontend", "Growth"] }
     ],
     skills: [
-        { name: "Product Strategy", level: "97%" },
-        { name: "Full-Stack Engineering", level: "95%" },
-        { name: "UX / Interface Design", level: "92%" },
-        { name: "Automation & Systems", level: "94%" },
-        { name: "Ecommerce & Marketplaces", level: "90%" },
-        { name: "Founder-Led Growth", level: "89%" }
+        { name: "Network Infrastructure" },
+        { name: "Network Automation" },
+        { name: "Product Strategy" },
+        { name: "Full-Stack Engineering" },
+        { name: "UX / Interface Design" },
+        { name: "Ecommerce & Marketplaces" },
+        { name: "Founder-Led Growth" }
     ],
     principles: [
         "Start with commercial clarity, not vanity features.",

@@ -64,7 +64,7 @@ const renderHeroVentures = () => {
                 <a class="venture-tile venture-tile-${venture.accent}" href="${venture.url}" target="_blank" rel="noreferrer">
                     <img class="venture-tile-image" src="${venture.image}" alt="${venture.name} preview artwork">
                     <span>${venture.name}</span>
-                    <small>${venture.url.replace("https://", "")}</small>
+                    <small>${venture.url.replace("https://", "").replace("www.", "")}</small>
                 </a>
             `
         )
@@ -141,13 +141,7 @@ const renderSkills = () => {
         .map(
             (skill) => `
                 <article class="skill-row">
-                    <div class="skill-copy">
-                        <strong>${skill.name}</strong>
-                        <span>${skill.level}</span>
-                    </div>
-                    <div class="skill-bar">
-                        <span style="width: ${skill.level};"></span>
-                    </div>
+                    <strong>${skill.name}</strong>
                 </article>
             `
         )
